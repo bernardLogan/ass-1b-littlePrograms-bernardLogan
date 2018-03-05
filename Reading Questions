@@ -1,0 +1,286 @@
+Reading Questions
+
+Chapter 1
+===================
+1.2:
+A. The "java" command from the JDK executes a Java application.
+B. The "javac" command from the JDK compiles a Java program.
+C. A java source file must end with the ".java" file extension.
+D. When a java program is compiled, the file produced by the compiler ends with the ".class" file extension
+E. The file produced by the java compiler contains "bytecode" that are executed by the Java Virtual Machine.
+
+1.3
+A. Objects enable the design practice of "information hiding"-although they may know how to communicate with one another across well-defined interfaces, they normally are not allowed to know how other objects are implemented.
+B. Java programmers concentrate on creating "classes", which contain fields and the set of methods that manipulate those fields and provide services to clients.
+C. The process of analyzing and designing a system from an object-oriented point of view is called "OOAD- Object Oriented Analysis and Design"
+D. Inheritance
+E. Unified Modeling Language (UML)
+F. Attributes
+
+1.4. 
+A. Input Unit
+B. Programming
+C. High-level programming
+D. Output unit
+E. Memory unit and secondary storage unit
+F. ALU
+G. ALU
+H. High level languages
+I. Machine language
+J: CPU
+
+1.6 
+A. Alpha, Beta, RC (Release Candidate), Final Release, Continous Beta
+B. Integrated Development Environment
+C. JDK
+D. Virtual Machine
+E. Class loader
+F. Bytecode verifier
+
+
+1.7
+Phase 1: Source code is converted into bytecode
+Phase 2: Bytecode is stored onto memory as a file with the extension .class
+
+1.8 
+Wrist-Watch Applied to OOP
+=============
+Object: The wrist watch itself
+Attributes: 
+- Manufacturer
+- Material (diamond, steel, quartz, etc..)
+- Power source (mechanical, solar, electronic)
+Behaviors:
+- tell time
+- hide moving gears
+- collect solar rays and convert to electricity (if solar)
+Class:
+- Wrist Watch class act as a blueprint for instanced watch and would contain methods for a watch's task (tellTime, collectEnergy, changeTime, etc..)
+
+Inheritance
+- inherit from parent class (ex. clock class)
+
+Modeling: 
+- Mockup of wrist watch, how it would look - representation of wrist watch
+
+Messages:
+If time is changed on wrist watch, call appropriate method to register this change (ex. calibrating analog watch)
+- Consume energy and tell users when watch needs charging (if electronic)
+
+Encapsulation:
+Communication to the data of wrist watch watch using the abilities given, without having access to it's inner working (i.e. the variables)
+
+Interface
+An interface applied to a wrist watch would tell you how to create a certain wristwatch (a recipe sort of) but implementation is separate.
+Information Hiding:
+Ability to use watch without knowing the behind-the scenes mechanisms of it.
+
+End of Chapter 1
+===============================================
+
+Chapter 2
+=============================
+2.1:
+A. left brace, right brace
+B. if statement
+C. //
+D. newline, tab, space
+E. Keywords
+F. main
+G. System.out.println, System.out.print, System.out.printf
+
+2.2
+A. False
+B. True
+C. False
+D. False
+E. False
+
+2.3
+A. int c, thisIsAVariable, q76534, number;
+B. System.out.println("Enter an integer: ");
+C. value = input.nextInt();
+D. System.out.println("This is a Java Program.");
+E. System.out.printf("%s%n%n", "This is a java", "program")
+F. if(number != 7)
+   System.out.println("This number is not equal to 7");
+
+
+2.4
+A. Semicolon after if statement
+B. Wrong relational operator
+
+2.5
+A. // Calculate the product of three integers
+B. Scanner input = new Scanner(System.in);
+C. int x, y, z
+D. System.out.println("Enter first integer: ");
+E. x = input.nextInt();
+F. System.out.println("Enter second integer: ");
+G.y = input.nextInt();
+H. System.out.println("Enter third integer: ");
+I z = input.nextInt();
+J. result = (x*y*z);
+K. System.out.printf("Product is %d%n", result);
+
+
+2.7
+A. Comments
+B. If statement
+C. Assignment statement
+D. Division, % remainder
+E. Innermost set of parentheses
+F. Variable
+
+2.8
+A. System.out.print("Enter an integer:  ")
+B. a = b * c;
+C. // This program performs a sample payroll calculation.
+
+2.9
+A. False. Operators are evaluated by their precedence and association.
+B. True
+C. False. Arithmetic expressions are also evaluated by precedence.
+D. False. h22 is a valid variable name. Others are invalid.
+
+2.10
+A. x = 2
+B. Value of 2+2 = 4
+C. x =
+D. 5 = 5
+
+2.11
+Answer: A and D
+
+==============End of Chapter 2================
+
+Chapter 3
+=============================================
+3.1. 
+A. public
+B. class
+C. new
+D. type, name
+E. default package
+F. float and double
+G. double precision
+H. .nextDouble()
+I. Modifier
+J. void
+K. Nextline
+L. java.lang
+M. import declaration
+N. floating-point number
+O. single
+P. %f
+Q. Primitive, Reference
+3.2.
+A. False. Method names by convention usually start with lowercase first letter of the first word, followed by the 2nd word and words after that starting with a capital first letter.
+B. True
+C. True. 
+D. False. Primitives can't be used to invoke a method. Reference type needed.
+E. False. Variables declared in a method are local and only accessible in the method, not in all.
+F. True
+G. False. Primitive instance variables are initialized by default, not local.
+H. True
+I. True
+J. True
+K. False. They are double by default.   
+
+3.3.
+Local variables are declared in the method body and can only be used in that method.
+Instance variables are declared outside of any method and are accessible throughout all the methods in a class.
+
+3.4.
+Parameter: Information needed by a method to complete its task. Needs to be specified at method declaration.
+Argument: Actual value for parameter. When a method is called, arguments are passed to parameters.
+
+3.5
+The new keyword is used to create a new object and invoke constructors. 
+3.6
+Default constructors have no parameters and is the constructor that is supplied to the compiler if no constructor has been declared. Instance variables will receive their default values.
+3.7
+An instance variable is a field that represents an object's attributes.
+
+3.10
+setters and getters are a form of data encapsulation.
+setters allow for variable modification
+getters allow for access to these variables.
+Here, you are accessing the variables but not directly.
+===========End of Chapter 3====================
+
+Chapter 4
+=============================================
+4.8. 
+A. closing right brace for while loop is missing
+B. Semi colon at else statement
+
+4.15.
+A. Semi-colon at if statement, and unnecessary quote mark outside of println statement.
+B. You can't initialize an int as 1 and another variable in the same line
+C. No beginning and ending brace for while loop.
+D. No closing brace for while loop
+
+4.16
+Total is 385
+4.25
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+****
+++++++++
+
+4.26
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+>>>>>>>>>>
+<<<<<<<<<<
+
+===================End of Chapter 4===========================
+
+Chapter 5
+==============================================================
+5.2.
+A. False. Default is optional
+B. False. Break is used to exit switch-case statement
+C. False. Both expressions must be true when using &&.
+D. True
+E. True
+F. False. Every value must be tested as a separate case.
+G. True
+5.4.
+A. Error: Semi-colon after while header will cause infinite loop. 
+   Solution: replace ; with { }
+B. Error: Using floating point for for loop might not work.
+   Solution: Use an integer.
+C. Error: Break statement is missing on first case.
+   Solution: Add break statement.
+D. Error: Improper use of relational operator.
+   Solution: Use <=, or <. Or you can change 10 to 11.
+5.7.
+A do-while loop is good for iterating through a set of data, or performing an action until a condition is met. A regular while loop looks runs a loop while a certain action or value is in effect.
+5.8.
+Break: Exits loop
+Continue: Jumps to the next iteration.
+5.9
+A. Error: comma after 100 at int i = 100. Should be a semi colon.
+Solution: replace , with ;
+
+B. Error: No break statement for both cases.
+   Solution; Add break statement to both cases
+C. Error: +=2 is an incrementer. 
+   Solution:  Use -=2 as a decrementer
+
+D. Error: Counter is not initialized.
+   Solution:  initialize counter as int counter =2;
